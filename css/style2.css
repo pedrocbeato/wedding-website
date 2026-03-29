@@ -467,7 +467,7 @@ body {
 
 @media (max-width: 768px) {
     .home .hero {
-        background-image: url('../img/emilia-afonso2.jpeg');
+        background-image: url('../img/emilia-afonso-mobile.jpg');
         background-position: center 58%;
         min-height: 100svh;
         min-height: 100dvh;
