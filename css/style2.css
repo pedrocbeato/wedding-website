@@ -466,6 +466,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    .home .hero {
+        background-image: url('../img/emilia-afonso2.jpeg');
+        background-position: center;
+    }
+
     .hero {
         background-attachment: scroll;
     }
