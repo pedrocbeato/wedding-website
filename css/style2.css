@@ -498,6 +498,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    .date-page .location-preview {
+        width: min(100%, 340px);
+        height: 210px;
+    }
+
     .home .hero {
         background-image: url('../img/emilia-afonso-mobile.jpg');
         background-position: center 58%;
