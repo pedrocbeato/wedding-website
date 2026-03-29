@@ -265,6 +265,26 @@ body {
     text-decoration-color: rgba(59, 29, 37, 0.9);
 }
 
+.date-page .location-preview {
+    width: min(100%, 250px);
+    height: 120px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(125, 47, 68, 0.4);
+    background: rgba(255, 246, 248, 0.95);
+}
+
+.date-page .location-preview-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 .date-page .rsvp-link {
     display: inline-block;
     margin-top: 6px;
@@ -310,7 +330,7 @@ body {
 .presents-page .hero-content h2,
 .presents-page .hero-content p {
     color: var(--rose-deep);
-    text-shadow: 0 1px 0 rgba(81, 67, 67, 0.65);
+    text-shadow: 0 1px 1px rgba(81, 67, 67, 0.65);
 }
 
 .home .hero-content > p {
@@ -463,6 +483,18 @@ body {
     color: var(--rose-soft);
     font-weight: 700;
     font-size: 0.95rem;
+}
+
+@media (min-width: 769px) {
+    .date-page .card,
+    .date-page .rsvp-card {
+        width: min(760px, 96%);
+    }
+
+    .date-page .location-preview {
+        width: min(100%, 500px);
+        height: 300px;
+    }
 }
 
 @media (max-width: 768px) {
