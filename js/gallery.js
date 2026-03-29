@@ -1,11 +1,24 @@
 const FALLBACK_JSON_URL = 'products.json';
 
+function resolveImagePath(path) {
+    if (!path) {
+        return '';
+    }
+
+    // Convert root-absolute asset paths to relative so they work under subpaths.
+    if (path.startsWith('/img/')) {
+        return path.slice(1);
+    }
+
+    return path;
+}
+
 function normalizeProduct(raw, index) {
     return {
         id: raw.id || String(index + 1),
         name: raw.name || `Presente ${index + 1}`,
         emoji: raw.emoji || '🎁',
-        image: raw.image || '',
+        image: resolveImagePath(raw.image),
         priceLabel: raw.price || ''
     };
 }
