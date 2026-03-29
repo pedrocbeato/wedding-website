@@ -1,0 +1,61 @@
+{
+  "mbwayNumber": "969695973",
+  "products": [
+    {
+      "id": 1,
+      "name": "Lua de mel Costa Rica",
+      "price": "Valor à escolha",
+      "image": "/img/costarica.jpg",
+      "emoji": "🌴",
+      "paid": false
+    },
+    {
+      "id": 2,
+      "name": "Obras da casa",
+      "price": "Valor à escolha",
+      "image": "/img/obras-23.jpg",
+      "emoji": "🛠️",
+      "paid": false
+    },
+    {
+      "id": 3,
+      "name": "Faqueiro Cotipol",
+      "price": "Valor à escolha",
+      "image": "/img/faqueiro.jpg",
+      "emoji": "🍴",
+      "paid": false
+    },
+    {
+      "id": 4,
+      "name": "Sofá",
+      "price": "Valor à escolha",
+      "image": "/img/sofa.jpg",
+      "emoji": "🛋️",
+      "paid": false
+    },
+    {
+      "id": 5,
+      "name": "Móvel Sala",
+      "price": "Valor à escolha",
+      "image": "/img/movelsala.jpg",
+      "emoji": "🪑",
+      "paid": false
+    },
+    {
+      "id": 6,
+      "name": "Armários Quartos",
+      "price": "Valor à escolha",
+      "image": "/img/armario.jpg",
+      "emoji": "🚪",
+      "paid": false
+    },
+    {
+      "id": 7,
+      "name": "Eletrodomésticos",
+      "price": "Valor à escolha",
+      "image": "/img/eletrodomesticos01.jpg",
+      "emoji": "🔌",
+      "paid": false
+    }
+  ]
+}
