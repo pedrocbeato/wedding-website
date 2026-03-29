@@ -468,7 +468,20 @@ body {
 @media (max-width: 768px) {
     .home .hero {
         background-image: url('../img/emilia-afonso2.jpeg');
-        background-position: center;
+        background-position: center 58%;
+        min-height: 100svh;
+        min-height: 100dvh;
+    }
+
+    .home .hero-content {
+        min-height: calc(100svh - 80px);
+        min-height: calc(100dvh - 80px);
+    }
+
+    .home .hero-content h1,
+    .home .hero-content > p {
+        color: var(--white);
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
     }
 
     .hero {
@@ -505,6 +518,11 @@ body {
 @media (max-width: 480px) {
     .hero {
         min-height: 78vh;
+    }
+
+    .home .hero {
+        min-height: 100svh;
+        min-height: 100dvh;
     }
 
     .hero-content {
