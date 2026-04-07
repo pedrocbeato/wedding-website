@@ -1,5 +1,5 @@
 {
-  "mbwayNumber": "969695973",
+  "mbwayNumber": "",
   "products": [
     {
       "id": 1,
@@ -13,13 +13,13 @@
       "id": 2,
       "name": "Obras da casa",
       "price": "",
-      "image": "/img/obras-23.jpg",
+      "image": "/img/obrascasa.jpeg",
       "emoji": "🛠️",
       "paid": false
     },
     {
       "id": 3,
-      "name": "Faqueiro Cotipol",
+      "name": "Faqueiro Cutipol",
       "price": "",
       "image": "/img/faqueiro.jpg",
       "emoji": "🍴",
@@ -54,6 +54,14 @@
       "name": "Eletrodomésticos",
       "price": "",
       "image": "/img/eletrodomesticos01.jpg",
+      "emoji": "🔌",
+      "paid": false
+    },
+    {
+      "id": 8,
+      "name": "Serviços de mesa",
+      "price": "",
+      "image": "/img/servicomesa.PNG",
       "emoji": "🔌",
       "paid": false
     }

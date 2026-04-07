@@ -385,6 +385,12 @@ body {
     font-size: 0.9rem;
 }
 
+.iban-line {
+    display: block;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
 .presents-gallery {
     background: linear-gradient(160deg, var(--cream-1), var(--cream-2));
     border-top: 2px solid var(--rose);
@@ -504,7 +510,7 @@ body {
     }
 
     .home .hero {
-        background-image: url('../img/emilia-afonso-mobile.jpg');
+        background-image: url('../img/emilia-afonso2.jpeg');
         background-position: center 58%;
         min-height: 100svh;
         min-height: 100dvh;
