@@ -1,24 +1,9 @@
 const FALLBACK_JSON_URL = 'products.json';
 
-function resolveImagePath(path) {
-    if (!path) {
-        return '';
-    }
-
-    // Convert root-absolute asset paths to relative so they work under subpaths.
-    if (path.startsWith('/img/')) {
-        return path.slice(1);
-    }
-
-    return path;
-}
-
 function normalizeProduct(raw, index) {
     return {
         id: raw.id || String(index + 1),
         name: raw.name || `Presente ${index + 1}`,
-        emoji: raw.emoji || '🎁',
-        image: resolveImagePath(raw.image),
         priceLabel: raw.price || ''
     };
 }
@@ -37,27 +22,9 @@ function renderProduct(gallery, product) {
     const item = document.createElement('article');
     item.className = 'product-item';
 
-    const imageContainer = document.createElement('div');
-    imageContainer.className = 'product-image';
-
-    if (product.image) {
-        const image = document.createElement('img');
-        image.src = product.image;
-        image.alt = product.name;
-        image.className = 'product-image-img';
-        image.addEventListener('error', () => {
-            image.remove();
-            imageContainer.textContent = product.emoji;
-        });
-        imageContainer.appendChild(image);
-    } else {
-        imageContainer.textContent = product.emoji;
-    }
-
     const title = document.createElement('h3');
     title.textContent = product.name;
 
-    item.appendChild(imageContainer);
     item.appendChild(title);
 
     if (product.priceLabel) {
