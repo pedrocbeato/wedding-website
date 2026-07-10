@@ -1,12 +1,23 @@
-info needed:
+## Project Overview
 
-Date page:-
-Local e horas da cerimónia
-Local do copo de água
-forms, para confirmar e escrever dados necessários (restrições alimentares etc)
-local da lua de mel
+This responsive wedding website is a production-ready web application built to showcase frontend architecture, intuitive UI/UX design, and seamless state management. Designed as a functional template for event coordination, this project demonstrates and deploys a polished, user-centric product optimized for both desktop and mobile devices.
 
+**Live Demo:** https://emilia-afonso.com/index.html
 
-Presents page:-
-lista de coisas que precisam e valores para contribuirem
-IBAN mbway
+---
+
+## Features
+
+   **RSVP Form (with Google Forms link ):** Simple form for guests to confirm attendance, choose meal preferences, and submit dietary restrictions.
+   **Event Timeline & Details:** Interactive schedule of events (ceremony, cocktail hour, reception) with Google Maps integration.
+   **Gift Registry Links:** Direct access to our registry funds or store links.
+   **Fully Responsive:** Optimized for mobile phones, tablets, and desktops.
+
+---
+
+## Tech Stack
+
+   **Frontend:** [HTML5, CSS3, JavaScript]
+   **Backend/Database:** [Google Sheets API]
+   **Hosting:** [GitHub Pages / Cloudflare]
+
