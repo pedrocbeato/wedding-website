@@ -2,8 +2,6 @@
 
 This responsive wedding website is a production-ready web application built to showcase frontend architecture, intuitive UI/UX design, and seamless state management. Designed as a functional template for event coordination, this project demonstrates and deploys a polished, user-centric product optimized for both desktop and mobile devices.
 
-**Live Demo:** https://emilia-afonso.com/index.html
-
 ---
 
 ## Features
