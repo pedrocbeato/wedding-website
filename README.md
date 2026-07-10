@@ -26,7 +26,7 @@ This responsive wedding website is a production-ready web application built to s
 
 ---
 
-!(page1-d.png)
-!(page2-d.png)
-!(page3-d.png)
+![](page1-d.png)
+![](page2-d.png)
+![](page3-d.png)
 
