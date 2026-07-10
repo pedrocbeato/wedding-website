@@ -26,6 +26,8 @@ This responsive wedding website is a production-ready web application built to s
 
 ---
 
+## Showcase Images
+
 ![](page1-d.png)
 ![](page2-d.png)
 ![](page3-d.png)
