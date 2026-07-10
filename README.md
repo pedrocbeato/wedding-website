@@ -9,8 +9,11 @@ This responsive wedding website is a production-ready web application built to s
 ## Features
 
    **RSVP Form (with Google Forms link ):** Simple form for guests to confirm attendance, choose meal preferences, and submit dietary restrictions.
+  
    **Event Timeline & Details:** Interactive schedule of events (ceremony, cocktail hour, reception) with Google Maps integration.
+  
    **Gift Registry Links:** Direct access to our registry funds or store links.
+  
    **Fully Responsive:** Optimized for mobile phones, tablets, and desktops.
 
 ---
@@ -18,6 +21,8 @@ This responsive wedding website is a production-ready web application built to s
 ## Tech Stack
 
    **Frontend:** [HTML5, CSS3, JavaScript]
+  
    **Backend/Database:** [Google Sheets API]
+  
    **Hosting:** [GitHub Pages / Cloudflare]
 
